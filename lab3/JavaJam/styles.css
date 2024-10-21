@@ -1,0 +1,41 @@
+body {
+    background-color: #FCEBB6;
+}
+
+#box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #FEFAEB;
+}
+
+header {
+    text-align: center;
+    background-color: #D2B48C;
+    color: #8C3826;
+    padding: 0.1px;
+}
+
+nav {
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+}
+
+main h2 {
+    color: #8C3826;
+}
+
+p {
+    color: #221811;
+}
+
+ol {
+    color: rgb(238, 68, 68);
+}
+
+footer {
+    text-align: center;
+    background-color: #D2B48C;
+    font-size: smaller;
+}

@@ -1,0 +1,51 @@
+body {
+    background-color: white;
+}
+
+#box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: white;
+}
+
+header {
+    background-color: #002171;
+    color: white;
+    padding: 0.1px;
+    margin: 0;
+}
+
+.highLight {
+    color: #1976D2;
+    font-size: large;
+    font-weight: normal;
+}
+
+nav {
+    font-weight: 600;
+    background-color: #BBDEF8;
+    margin: 0;
+}
+
+main h2 {
+    color: #1976D2;
+}
+
+main dt {
+    color: #002171;
+    font-weight: bold;
+}
+
+p {
+    color: #666666;
+}
+
+ol {
+    color: rgb(238, 68, 68);
+}
+
+footer {
+    text-align: center;
+    font-size: smaller;
+}

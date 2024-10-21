@@ -1,0 +1,72 @@
+#box {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    background-color: #FEFAEB;
+    font-family: fantasy;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    line-height: 2;
+}
+
+.symbol {
+    width: 30px;
+    margin-top: 10px;
+
+}
+
+header {
+    background-color: antiquewhite;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+#downstyle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+
+}
+
+#copyRight {
+    text-align: center;
+}
+
+.picture {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.image {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.image2 {
+    width: 1000px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(250, 212, 239);
+}
+
+h2 body {
+    text-align: 10px;
+}
+
+main dt {
+    font-weight: bolder;
+    font-size: large;
+    color: rgb(31, 2, 2);
+}
