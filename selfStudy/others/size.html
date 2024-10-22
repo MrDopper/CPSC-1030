@@ -6,32 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #jokes {
+        div {
             /* Limit the area that an object can be use */
-            width: 400px;
-            height: 400px;
+            width: 250px;
+            height: 250px;
+        }
+
+        #first {
+            background-color: #bde0fe;
+            border-width: 5px;
+            border-color: black;
+            /* For Styles there are plenty of styling you can use. If there is 2 styles. It will start from top, bottom; then right to left*/
+            border-style: solid;
+            /* Basically what this function does is just resize the border to match with the set size of width and height */
+            box-sizing: border-box;
+        }
+
+        #second {
+            background-color: #a2d2ff;
+            /*border-color: #cdb4db;
+            border-style: solid dashed;
+            border-width: 5px;
+            border-left-color: #f43f81; */
+            /* A shortcut for everything would be border follow by width | styles | colours */
+            border: 5px solid #cdb4db;
+            border-radius: 50% 20% / 10% 30%;
         }
     </style>
 </head>
 
 <body>
-    <div id="jokes">
-        <p>
-            So, I was chatting with an atom the other day, and I started to feel a bit suspicious. I mean, think about
-            it—atoms are
-            in everything, right? So, I asked, "Hey, can I trust you?" And the atom just laughed and said, "Of course
-            not!
-            We
-            literally make up everything!" At that point, I realized I'd been duped by the building blocks of the
-            universe.
-            Turns
-            out, even on a microscopic level, things aren't always what they seem!
-            I was hanging out with a photon the other day, and we decided to go on a road trip. As we were getting ready
-            to leave, I
-            asked, "Hey, don’t you need to pack anything?" The photon just shrugged and said, "Nah, I’m traveling
-            light." Guess when
-            you're a particle of light, you really know how to keep things simple!
-        </p>
+    <div id="first">
+        So, I was chatting with an atom the other day, and I started to feel a bit suspicious. I mean, think about
+        it—atoms are
+        in everything, right? So, I asked, "Hey, can I trust you?" And the atom just laughed and said, "Of course
+        not!
+        We
+        literally make up everything!" At that point, I realized I'd been duped by the building blocks of the
+        universe.
+        Turns
+        out, even on a microscopic level, things aren't always what they seem!
+    </div>
+    <div id="second">
+        I was hanging out with a photon the other day, and we decided to go on a road trip. As we were getting ready
+        to leave, I
+        asked, "Hey, don’t you need to pack anything?" The photon just shrugged and said, "Nah, I’m traveling
+        light." Guess when
+        you're a particle of light, you really know how to keep things simple!
     </div>
 </body>
 
