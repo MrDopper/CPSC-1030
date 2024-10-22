@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Party sign up form</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
+
 <body>
-    
+    <form action="">
+        <div id="username">
+            <label for="name">Username</label>
+            <input type="text" name="username" id="name" required>
+        </div>
+        <div id="email">
+            <label for="userEmail">Email</label>
+            <input type="email" name="mail" id="userEmail" required>
+        </div>
+        <!-- It is the good practice to use the same atttribute for name and apply it for all the input.
+         Because when you submit the form, it will group all the data with the same name together-->
+        <div id="Parties">
+            <p>Select the party you want to attend to: </p>
+            <!-- If you want to create a radio checking before the text, you can call the input function before label first -->
+            <div>
+                <input type="radio" name="party" id="halloween" required>
+                <label for="halloween">Halloween Party</label>
+            </div>
+            <div>
+                <input type="radio" name="party" id="Christmas" required>
+                <label for="Christmas">Christmas Party at Jackson's house</label>
+            </div>
+            <div>
+                <input type="radio" name="party" id="newYear" required>
+                <label for="newYear">newYear Party Michell's house </label>
+            </div>
+        </div>
+        <div id="age">
+            <label for="retriction">Select your age group:</label>
+            <!-- Select function is use to let the user select an option in a selection box -->
+            <select name="divisions" id="retriction" required>
+                <!-- options are like an array that can hold multiple choices that you can choose from -->
+                <option value="kid">under 11</option>
+                <option value="teenanger">11-18</option>
+                <option value="adult">19-45</option>
+                <option value="elder">45+</option>
+            </select>
+        </div>
+        <div id="Submition">
+            <button>submit</button>
+        </div>
+    </form>
 </body>
+
 </html>
