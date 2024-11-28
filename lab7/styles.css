@@ -1,0 +1,361 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #D2B48C;
+}
+
+#wrapper {
+    max-width: 1200px;
+    background-color: #221811;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+header {
+    overflow: auto;
+    background-color: #D2B48C;
+    background-image: url(images/cup.jpg);
+    background-size: 128px 100%;
+    background-repeat: no-repeat;
+    font-size: 150%;
+    padding-left: 105px;
+    width: 100%;
+    height: auto;
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+nav {
+    background-color: #221811;
+    text-align: center;
+}
+
+nav a {
+    color: #D2B48C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:link {
+    color: #FEF6C2;
+}
+
+nav a:hover {
+    color: #CC9933;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.25em;
+}
+
+nav li {
+    padding: 0.5em 1em;
+    width: 100%;
+    border-bottom: 1px solid #D2B48C;
+}
+
+
+main {
+    background-color: #221811;
+}
+
+#image_frame {
+    background-image: url("images/hero.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+#heroMugs {
+    background-image: url(images/heromugs.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+#heroGuitar {
+    background-image: url(images/heroguitar.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+#mainPart {
+    overflow: auto;
+    background-color: #FEF6C2;
+    padding: 20px 20px 50px 10px;
+}
+
+#mainPart h3 {
+    text-indent: 1em;
+    color: #8C3826;
+}
+
+#mainPart h2 {
+    text-indent: 1.5em;
+    margin: 0px;
+    color: #8C3826;
+
+}
+
+#mainPart ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+#mainPart p {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+footer {
+    font-style: italic;
+    text-align: center;
+    background-color: #D2B48C;
+    font-size: smaller;
+    padding-bottom: 1em;
+    border-top: 2px solid #8C3826;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+.discription {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.discription h3 {
+    margin: 0;
+}
+
+.discription p {
+    margin: 20px 0px 15px 0px;
+    color: #221811;
+}
+
+.details {
+    padding-left: 2em;
+    padding-right: 2em;
+    overflow: hidden;
+    padding: 0px 20px;
+    margin: 20px;
+    height: auto;
+
+}
+
+.details p {
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 0px;
+}
+
+.details img {
+    margin: 0px 30px;
+    width: 80px;
+    height: 80px;
+}
+
+#mainMusicPart h3 {
+    font-weight: bolder;
+    background-color: #d2b48c;
+    margin: 0;
+    text-align: left;
+    padding-left: 2em;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+}
+
+#mainMusicPart {
+    padding-bottom: 20px;
+    overflow: auto;
+    background-color: #FEF6C2;
+}
+
+#mainMusicPart h2 {
+    text-indent: 1em;
+    color: #8C3826;
+}
+
+#mainMusicPart p {
+    margin-bottom: 15px;
+}
+
+main h3,
+main h4,
+main p,
+main div,
+main dl {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+main ul {
+    padding-left: 2em;
+}
+
+#mobile {
+    display: inline;
+}
+
+#desktop {
+    display: none;
+}
+
+
+@media (min-width: 768px) {
+    #mobile {
+        display: none;
+    }
+
+    #desktop {
+        display: inline;
+    }
+}
+
+@media (min-width: 600px) {
+
+    header {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+    nav li {
+        border-bottom: none;
+    }
+
+    #homehero {
+        height: 50vh;
+        background-image: url('./images/road.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    #heromugs {
+        height: 50vh;
+        background-image: url('./images/threemugs.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    #heroguitar {
+        height: 50vh;
+        background-image: url('./images/guitar.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    #mobile {
+        display: none;
+    }
+
+    #desktop {
+        display: inline;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: row;
+    }
+
+    h4 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #mainMusicPart h3 {
+        font-weight: bolder;
+        background-color: #d2b48c;
+        margin: 0px 50px 0px 50px;
+        text-align: left;
+        padding-left: 1em;
+        border-width: 0px 0px 2px 0px;
+        border-style: solid;
+    }
+
+    #mainMusicPart {
+        padding-bottom: 20px;
+        overflow: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+
+
+    #wrapper {
+        display: grid;
+        grid-template-areas:
+            "header header"
+            "nav main"
+            "footer footer";
+        grid-template-columns: 130px 1fr;
+        grid-template-rows: auto 1fr auto;
+    }
+
+    header {
+        grid-area: header;
+        background-image: url('images/coffeelogo.jpg');
+        background-size: 130px 100%;
+        background-repeat: no-repeat;
+    }
+
+    nav {
+        width: 130px;
+        grid-area: nav;
+        flex-direction: column;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+/* /* body {
+    background-image: url("images/fadedroad50.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+}  */

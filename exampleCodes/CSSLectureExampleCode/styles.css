@@ -1,0 +1,65 @@
+/* Background Color */
+.example-box {
+  background-color: #f2f2f2;
+  /* Light gray background */
+}
+
+/* Text Color */
+.example-paragraph {
+  color: #333333;
+  /* Dark gray text */
+}
+
+/* Font Family */
+.example-box {
+  font-family: Arial, sans-serif;
+}
+
+/* Font Size */
+.example-box {
+  font-size: 16px;
+}
+
+/* Font Style */
+.example-box {
+  font-style: italic;
+  /* Making the text italic */
+}
+
+/* Font Weight */
+.example-box {
+  font-weight: bold;
+  /* Making the text bold */
+}
+
+/* Line Height */
+.example-paragraph {
+  line-height: 1.5;
+  /* Spacing between lines */
+}
+
+/* Margin */
+.example-box {
+  margin: 50px;
+  /* Adding margin to all sides */
+}
+
+/* Text Align */
+.example-paragraph {
+  text-align: center;
+  /* Center aligning the text */
+}
+
+/* Text Decoration */
+.example-link {
+  text-decoration: none;
+  /* Removing the underline */
+  color: blue;
+  /* Making the text color blue */
+}
+
+/* Width */
+.example-box {
+  width: 300px;
+  /* Setting the width of the box */
+}

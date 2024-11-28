@@ -1,0 +1,22 @@
+.relative-box {
+    position: relative;
+    left: 15px;
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+#absolute-box {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    background-color: lightgray;
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+.dotted-headline {
+    color: blue;
+    font-size: 1.5em;
+    border-bottom: 1px dotted blue;
+    padding-bottom: 5px;
+}

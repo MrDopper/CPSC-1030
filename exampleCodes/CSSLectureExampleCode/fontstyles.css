@@ -1,0 +1,27 @@
+body {
+    font-size: 200%;
+}
+
+/* Font size in em units */
+.font-em {
+    font-size: 1em;
+    /* 1.5 times the parent element's font size */
+}
+
+/* Font size in pt units */
+.font-pt {
+    font-size: 12pt;
+    /* 12 point font size */
+}
+
+/* Font size in px units */
+.font-px {
+    font-size: 16px;
+    /* 16 pixels font size */
+}
+
+/* Font size in percentage */
+.font-percent {
+    font-size: 100%;
+    /* 150% of the parent element's font size */
+}

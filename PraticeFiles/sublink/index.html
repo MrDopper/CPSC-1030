@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        nav {
+            position: relative;
+        }
+
+        nav li ul {
+            position: absolute;
+            left: 100px;
+            top: 20px;
+        }
+
+        nav ul ul {
+            display: none;
+        }
+
+        nav li:hover ul {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Item two</a></li>
+            <li><a href="#">Item one</a>
+                <ul>
+                    <li>Hello</li>
+                    <li>Hi</li>
+                </ul>
+            </li>
+            <li><a href="#">Item three</a></li>
+        </ul>
+
+
+    </nav>
+</body>
+
+</html>

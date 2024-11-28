@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow Example</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 100px;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            position: relative;
+        }
+        
+        #outset-box {
+            box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        }
+        
+        #inset-box {
+            box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
+        }
+        
+        #combined-box {
+            box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75), inset 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
+        }
+    </style>
+</head>
+<body>
+    <div id="outset-box" class="box">Outset Shadow</div>
+    <div id="inset-box" class="box">Inset Shadow</div>
+    <div id="combined-box" class="box">Combined Shadow</div>
+</body>
+</html>

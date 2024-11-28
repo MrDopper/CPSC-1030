@@ -13,21 +13,35 @@ body {
 }
 
 #wrapperBox {
-    min-width: 800px;
+    min-width: 850px;
     width: 80%;
     font-size: 18px;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #faedcd;
     position: relative;
-    /* min-height: 100vh;
-    padding-bottom: 50px; */
 }
 
 #introduction {
     background-color: #ccd5ae;
     text-align: center;
-    padding: 10px;
+    height: 130px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+#introduction h1 {
+    padding-top: 40px;
+}
+
+#introduction img {
+    height: 130px;
+    width: auto;
+    float: left;
+    border-width: 0px 2px;
+    border-style: solid;
+    border-color: #b5955d;
     box-sizing: border-box;
 }
 
@@ -58,10 +72,11 @@ body {
     text-decoration: none;
 }
 
-#navigation ul li a:hover {
-    background-color: #588157;
+#navigation a:hover {
+    padding: 12px;
+    background-color: #b58359;
     color: #555;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
 }
 
 #sideNavigation {
@@ -83,26 +98,28 @@ body {
     list-style-type: none;
 }
 
-#sideNavigation ul li {
+#sideNavigation li {
+    padding-top: 50px;
     padding-bottom: 10px;
 }
 
-#sideNavigation ul li a {
+#sideNavigation a {
     color: #555;
     text-decoration: none;
 }
 
-#sideNavigation ul li a:hover {
-    background-color: #588157;
+#sideNavigation a:hover {
+    padding: 10px 30px;
+    background-color: #b58359;
     color: #555;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
 
 }
 
 #information {
     line-height: 2;
     border-style: solid;
-    border-width: 0px 2px 2px 0px;
+    border-width: 0px 2px 0px 0px;
     border-color: #b5955d;
     padding: 10px;
     margin-left: 200px;
@@ -116,6 +133,28 @@ body {
 
 .boldWords {
     font-weight: bold;
+}
+
+#copyRight {
+    border-width: 2px 2px 2px 0px;
+    border-color: #b5955d;
+    border-style: solid;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 165px;
+    padding: 20px 0px;
+    background-color: #ccd5ae;
+}
+
+#copyRight a {
+    text-decoration: none;
+    color: #d4a373;
+}
+
+#copyRight a:hover {
+    text-decoration: underline;
+    color: #b58359;
 }
 
 /* 

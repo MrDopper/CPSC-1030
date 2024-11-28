@@ -1,0 +1,47 @@
+/* Line Height */
+.example-line-height {
+    line-height: 2;
+    /* Double the normal line height */
+}
+
+/* Text Align */
+.example-text-align {
+    text-align: right;
+    /* Align text to the right */
+}
+
+/* Text Indent */
+.example-text-indent {
+    text-indent: 40px;
+    /* Indent the first line of text by 40 pixels */
+}
+
+/* Text Decoration */
+.example-text-decoration {
+    text-decoration: underline overline wavy red;
+    /* Underline, overline with a wavy red line */
+}
+
+/* Text Transform */
+.example-text-transform {
+    text-transform: uppercase;
+    /* Transform all text to uppercase */
+}
+
+/* Letter Spacing */
+.example-letter-spacing {
+    letter-spacing: 4px;
+    /* Increase spacing between letters by 4 pixels */
+}
+
+/* Word Spacing */
+.example-word-spacing {
+    word-spacing: 10px;
+    /* Increase spacing between words by 10 pixels */
+}
+
+/* Text Shadow */
+.example-text-shadow {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    /* Horizontal offset, vertical offset, blur radius, and color */
+}

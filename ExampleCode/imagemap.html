@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map Example</title>
+</head>
+<body>
+    <h1>Image Map Example</h1>
+
+    <!-- The img element links to the map via the usemap attribute -->
+    <img src="images/example.jpg" alt="Shapes" usemap="#shapeMap" width="1000" height="600">
+    
+    <!-- Define the image map -->
+    <map name="shapeMap">
+        <!-- Define a rectangular area -->
+        <area shape="rect" coords="400,200,800,400" href="https://www.google.com/search?q=galaxy" alt="Rectangle">
+        <!-- Define a circular area -->
+        <area shape="circle" coords="100,100,100" href="https://www.google.com/search?q=star" alt="Circle">
+    </map>
+</body>
+</html>

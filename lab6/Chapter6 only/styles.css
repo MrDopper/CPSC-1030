@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/fadedroad50.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#box {
+    min-width: 900px;
+    max-width: 1280px;
+    width: 80%;
+    margin: auto;
+    background-color: #221811;
+    font-family: Tahoma, Arial, sans-serif;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
+header {
+    background-color: #D2B48C;
+    background-image: url(images/coffeelogo.jpg);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 5px 0px 5px 240px;
+    width: 100%;
+    height: 150px;
+    overflow: auto;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+#sideNavigation {
+    float: left;
+    background-color: #221811;
+    width: 200px;
+}
+
+#sideNavigation ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+#sideNavigation li {
+    padding-left: 40px;
+}
+
+#sideNavigation a {
+    color: #D2B48C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#sideNavigation a {
+    color: #D2B48C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* 
+#sideNavigation a:link {
+    color: #FEF6C2;
+} */
+
+#sideNavigation a:hover {
+    color: #CC9933;
+}
+
+/* #sideNavigation a:link {
+    color: #FFFFFF;
+} */
+
+/* #sideNavigation a:visited {
+    color: #EAEAEA;
+} */
+
+
+#home {
+    margin-left: 200px;
+    background-color: #221811;
+}
+
+#image_frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+
+
+#mainPart {
+    overflow: auto;
+    background-color: #fff2cb;
+    padding: 20px 20px 50px 20px;
+}
+
+#mainPart h3 {
+    padding-left: 3em;
+    padding-right: 2em;
+    color: #8C3826;
+}
+
+#mainPart h2 {
+    text-indent: 2em;
+    margin: 0px;
+    color: #8C3826;
+
+}
+
+#mainPart ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+#mainPart p {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+footer {
+    font-style: italic;
+    text-align: center;
+    background-color: #D2B48C;
+    font-size: smaller;
+    padding-bottom: 1em;
+    border-top: 2px solid #8C3826;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+.discription {
+    display: flex;
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+    flex-direction: column;
+
+}
+
+.discription h3 {
+    margin: 0;
+}
+
+.discription p {
+    margin: 20px 50px 100px 0px;
+    color: #221811;
+}
+
+.details {
+    padding-left: 2em;
+    padding-right: 2em;
+    overflow: hidden;
+    padding: 0px 150px;
+    margin: 20px;
+    height: 100px;
+}
+
+.details img {
+    float: left;
+    margin: 0px 30px;
+    width: 80px;
+    height: 80px;
+}
+
+#mainMusicPart h3 {
+    font-weight: bolder;
+    background-color: #d2b48c;
+    margin: 0;
+    text-align: left;
+    padding-left: 2em;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+}
+
+#mainMusicPart {
+    padding-bottom: 20px;
+    overflow: auto;
+    background-color: #fff2cb;
+}
+
+#mainMusicPart h2 {
+    text-indent: 3em;
+    color: #8C3826;
+}
+
+#mainMusicPart p {
+    padding-left: 40px;
+    margin-bottom: 15px;
+}
