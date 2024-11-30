@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>knowMeMore</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cssFiles/styles.css">
+    <link rel="stylesheet" href="cssFiles/moblie.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -37,7 +38,7 @@
                 profile or reach out!
             </p>
             <div class="btn-box">
-                <button class="btn-box1">Hire me</button>
+                <button class="btn-box1" id="hire">Hire me</button>
                 <button class="btn-box2">Experience</button>
             </div>
         </div>
@@ -67,7 +68,7 @@
     </section>
     <section class="contactForm">
         <h2 class="contact-me">
-            Contact <span>Me</span>
+            Contact Me
         </h2>
         <form action="#">
             <div class="input-box">
@@ -80,7 +81,9 @@
             </div>
             <textarea name="comments " id="comments" cols="30" rows="10"
                 placeholder="Enter your comments/messages"></textarea>
-            <input type="submit" value="Send Message" class="btn-box1">
+            <div id="submit">
+                <input id="submitForm" type="submit" value="Send Message" class="btn-box1">
+            </div>
         </form>
     </section>
     <footer class="footer">
@@ -100,6 +103,7 @@
         </ul>
         <p class="copyRight">copyright&copy; Jackson's Bio</p>
     </footer>
+    <script src="js/button.js"></script>
 </body>
 
 </html>

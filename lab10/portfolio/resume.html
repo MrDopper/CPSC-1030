@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>knowMeMore</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cssFiles/styles.css">
+    <link rel="stylesheet" href="cssFiles/moblie.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -13,7 +14,7 @@
 <body>
     <header class="header">
         <div class="logo">
-            <a href="#" class="logo"><span>Jack</span>son</a>
+            <a href="index.html" class="logo"><span>Jack</span>son</a>
         </div>
 
         <nav class="navBar">
@@ -23,40 +24,90 @@
             <a href="#"> Hobbies</a>
             <a href="#">Travel</a>
         </nav>
-        <a href="#contact-me" class="contactMe">Contact Me</a>
+        <a href="index.html#contact-me" class="contactMe">Contact Me</a>
     </header>
     <section class="home">
-        <div class="home-content">
-            <h2>A Bit about me</h2>
-            <div class="media-container">
+
+        <div id="resume">
+            <h1>
+                Jackson Vi
+            </h1>
+            <p>
+                Vancouver, BC V5X1N9
+            </p>
+            <a href="mailto:vinghiatung2003@gmail.com">jvibusimess@gmail.com</a>
+            <p>
+                Proactive computer science student with strong interpersonal and selling skills, seeking a part-
+                time position to apply my problem-solving abilities and customer service expertise. Committed to
+                contributing positively to the team while gaining practical experience and supporting my educational
+                pursuits.
+            </p>
+            <h2>
+                Personal Details
+            </h2>
+            <p>
+                <span class="highLight">Highest Level of Education:</span> Secondary School<br>
+                <span class="highLight">Total years of experience:</span> 5
+            </p>
+            <h2> Work Experience</h2>
+            <h3>
+                Line Cook
+            </h3>
+            <p>
+                Freebird Table & Bar - Richmond, BC<br>
+                May 2022 to October 2023
+            </p>
+            <h2>
+                Skills
+            </h2>
+            <ul>
+                <li>
+                    Active listening
+                </li>
+                <li>
+                    Problem-solving
+                </li>
+                <li>
+                    Teamwork
+                </li>
+                <li>
+                    Leadership
+                </li>
+                <li>
+                    C++ (2 years)
+                </li>
+                <li>
+                    Electrical experience (2 years)
+                </li>
+            </ul>
+            <h2>
+                Projects
+            </h2>
+            <ul>
+                <li><a href="https://github.com/MrDopper/Slay"> Game Engine </a></li>
+                <li><a href="#">Slash and Dash Game</a></li>
+            </ul>
+            <h2>
+                About Me
+            </h2>
+            <div id="video">
+                <button id="videoButton">
+                    Click here to watch the video
+                </button>
+            </div>
+        </div>
+        <div id="videoPopup" class="popup-container">
+            <div class="popup-content">
+                <span id="closePopup" class="close-btn">&times;</span>
                 <video controls poster="audio/IMG_3992.mp4">
-                    <source src="audio/IMG_3992.mp4" type="video/mp4">
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    <!-- <source src="audio/IMG_3992.mp4" type="video/mp4"> -->
                     Your browser does not support the video tag.
                 </video>
-                <div class="details-container">
-                    <details>
-                        <summary>Programming language</summary>
-                        <ul>
-                            <li>C++</li>
-                            <li>HTML/CSS/JS</li>
-                            <li>Python</li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary>Other skills</summary>
-                        <ul>
-                            <li>Problem solving</li>
-                            <li>Team management</li>
-                        </ul>
-                    </details>
-                </div>
-            </div>
-            <div class="btn-box">
-                <button class="btn-box1">Hire me</button>
-                <button class="btn-box2">Experience</button>
             </div>
         </div>
     </section>
+
     <footer class="footer">
         <div class="social">
             <a href="https://www.instagram.com/jackson_vi_/" target="_blank"><i class='bx bxl-instagram'></i></a>
@@ -74,6 +125,7 @@
         </ul>
         <p class="copyRight">copyright&copy; Jackson's Bio</p>
     </footer>
+    <script src="js/functions.js"></script>
 </body>
 
 </html>
